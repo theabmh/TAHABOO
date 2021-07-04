@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0E6BDA26899C9500BD8797 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E6BD926899C9500BD8797 /* SignInViewController.swift */; };
+		DC408E8F268857B90022B7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408E8E268857B90022B7C9 /* AppDelegate.swift */; };
+		DC408E91268857B90022B7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408E90268857B90022B7C9 /* SceneDelegate.swift */; };
+		DC408E93268857B90022B7C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408E92268857B90022B7C9 /* HomeViewController.swift */; };
+		DC408E96268857B90022B7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC408E94268857B90022B7C9 /* Main.storyboard */; };
+		DC408E99268857B90022B7C9 /* TAHABOO.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC408E97268857B90022B7C9 /* TAHABOO.xcdatamodeld */; };
+		DC408E9B268857BB0022B7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC408E9A268857BB0022B7C9 /* Assets.xcassets */; };
+		DC408E9E268857BB0022B7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC408E9C268857BB0022B7C9 /* LaunchScreen.storyboard */; };
+		DC408EAB268884480022B7C9 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408EAA268884480022B7C9 /* CategoryCollectionViewCell.swift */; };
+		DC408EAD268884800022B7C9 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC408EAC268884800022B7C9 /* ItemCollectionViewCell.swift */; };
+		DC99D2AA26888B3700D44276 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99D2A926888B3700D44276 /* Category.swift */; };
+		DC99D2AC268898C400D44276 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC99D2AB268898C400D44276 /* Item.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC0E6BD926899C9500BD8797 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DC408E8B268857B90022B7C9 /* TAHABOO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAHABOO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC408E8E268857B90022B7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC408E90268857B90022B7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC408E92268857B90022B7C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DC408E95268857B90022B7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC408E98268857B90022B7C9 /* TAHABOO.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TAHABOO.xcdatamodel; sourceTree = "<group>"; };
+		DC408E9A268857BB0022B7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC408E9D268857BB0022B7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC408E9F268857BB0022B7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC408EAA268884480022B7C9 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC408EAC268884800022B7C9 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		DC99D2A926888B3700D44276 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		DC99D2AB268898C400D44276 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC408E88268857B90022B7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC408E82268857B90022B7C9 = {
+			isa = PBXGroup;
+			children = (
+				DC408E8D268857B90022B7C9 /* TAHABOO */,
+				DC408E8C268857B90022B7C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC408E8C268857B90022B7C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC408E8B268857B90022B7C9 /* TAHABOO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC408E8D268857B90022B7C9 /* TAHABOO */ = {
+			isa = PBXGroup;
+			children = (
+				DC408E8E268857B90022B7C9 /* AppDelegate.swift */,
+				DC408E90268857B90022B7C9 /* SceneDelegate.swift */,
+				DC408EA9268881050022B7C9 /* Model */,
+				DC408EA62688802C0022B7C9 /* Views */,
+				DC408EA5268880150022B7C9 /* Controller */,
+				DC408E9A268857BB0022B7C9 /* Assets.xcassets */,
+				DC408E9C268857BB0022B7C9 /* LaunchScreen.storyboard */,
+				DC408E9F268857BB0022B7C9 /* Info.plist */,
+				DC408E97268857B90022B7C9 /* TAHABOO.xcdatamodeld */,
+			);
+			path = TAHABOO;
+			sourceTree = "<group>";
+		};
+		DC408EA5268880150022B7C9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC0E6BD926899C9500BD8797 /* SignInViewController.swift */,
+				DC408E92268857B90022B7C9 /* HomeViewController.swift */,
+				DC408EAC268884800022B7C9 /* ItemCollectionViewCell.swift */,
+				DC408EAA268884480022B7C9 /* CategoryCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC408EA62688802C0022B7C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC408E94268857B90022B7C9 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC408EA9268881050022B7C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC99D2A926888B3700D44276 /* Category.swift */,
+				DC99D2AB268898C400D44276 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC408E8A268857B90022B7C9 /* TAHABOO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC408EA2268857BB0022B7C9 /* Build configuration list for PBXNativeTarget "TAHABOO" */;
+			buildPhases = (
+				DC408E87268857B90022B7C9 /* Sources */,
+				DC408E88268857B90022B7C9 /* Frameworks */,
+				DC408E89268857B90022B7C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TAHABOO;
+			productName = TAHABOO;
+			productReference = DC408E8B268857B90022B7C9 /* TAHABOO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC408E83268857B90022B7C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DC408E8A268857B90022B7C9 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = DC408E86268857B90022B7C9 /* Build configuration list for PBXProject "TAHABOO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC408E82268857B90022B7C9;
+			productRefGroup = DC408E8C268857B90022B7C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC408E8A268857B90022B7C9 /* TAHABOO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC408E89268857B90022B7C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC408E9E268857BB0022B7C9 /* LaunchScreen.storyboard in Resources */,
+				DC408E9B268857BB0022B7C9 /* Assets.xcassets in Resources */,
+				DC408E96268857B90022B7C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC408E87268857B90022B7C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC408E93268857B90022B7C9 /* HomeViewController.swift in Sources */,
+				DC408EAB268884480022B7C9 /* CategoryCollectionViewCell.swift in Sources */,
+				DC408E8F268857B90022B7C9 /* AppDelegate.swift in Sources */,
+				DC408EAD268884800022B7C9 /* ItemCollectionViewCell.swift in Sources */,
+				DC99D2AC268898C400D44276 /* Item.swift in Sources */,
+				DC0E6BDA26899C9500BD8797 /* SignInViewController.swift in Sources */,
+				DC408E99268857B90022B7C9 /* TAHABOO.xcdatamodeld in Sources */,
+				DC408E91268857B90022B7C9 /* SceneDelegate.swift in Sources */,
+				DC99D2AA26888B3700D44276 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC408E94268857B90022B7C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC408E95268857B90022B7C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC408E9C268857BB0022B7C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC408E9D268857BB0022B7C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC408EA0268857BB0022B7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC408EA1268857BB0022B7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC408EA3268857BB0022B7C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TAHABOO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abmh.TAHABOO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC408EA4268857BB0022B7C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TAHABOO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abmh.TAHABOO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC408E86268857B90022B7C9 /* Build configuration list for PBXProject "TAHABOO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC408EA0268857BB0022B7C9 /* Debug */,
+				DC408EA1268857BB0022B7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC408EA2268857BB0022B7C9 /* Build configuration list for PBXNativeTarget "TAHABOO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC408EA3268857BB0022B7C9 /* Debug */,
+				DC408EA4268857BB0022B7C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC408E97268857B90022B7C9 /* TAHABOO.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC408E98268857B90022B7C9 /* TAHABOO.xcdatamodel */,
+			);
+			currentVersion = DC408E98268857B90022B7C9 /* TAHABOO.xcdatamodel */;
+			path = TAHABOO.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC408E83268857B90022B7C9 /* Project object */;
+}
